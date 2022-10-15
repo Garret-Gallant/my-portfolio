@@ -6,11 +6,11 @@ const About = () => {
       <h1 class='font-bold'>My Hobbies In Relation to Tech</h1>
       <br />
         <p>
-          I began expanding my instruments around the age of 16 when I found guitar wasn't able to make the compositions I 
-          was looking for by itself, and learned drums, keyboard, and audio production as well. Since then I've been making 
-          tons of music. Drawing parallels between how different programming languages are used and how different instruments 
-          fall into a mix has been profoundly enlightening for my coding habits. The connection between the two have certainly
-          benefitted mny ability to write clean and efficient code.
+          I began expanding my instruments around the age of 16 when I discovered guitar wasn't able to make the compositions I 
+          was looking for by itself, and learned drums, keyboard, and audio production as well. Since then I've been producing tracks daily. 
+          Drawing parallels between how different programming languages are used and how different instruments fall into a mix has been 
+          profoundly enlightening for my coding habits. Identifying the connection between the two have certainly benefitted my ability to write
+          clean and efficient code.
         </p>
         <br />
         <p>
@@ -47,4 +47,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;
