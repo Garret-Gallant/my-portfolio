@@ -2,8 +2,9 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
-      <h2>My Hobbies In Relation to Tech</h2>
+    <div class='text-center'>
+      <h1 class='font-bold'>My Hobbies In Relation to Tech</h1>
+      <br />
         <p>
           I began expanding my instruments around the age of 16 when I found guitar wasn't able to make the compositions I 
           was looking for by itself, and learned drums, keyboard, and audio production as well. Since then I've been making 
@@ -11,12 +12,15 @@ const About = () => {
           fall into a mix has been profoundly enlightening for my coding habits. The connection between the two have certainly
           benefitted mny ability to write clean and efficient code.
         </p>
+        <br />
         <p>
           Outside of music I've been a skater and BMX Rider for quite a few years, and it's the main reason I get away from my desk!
           The dedication and drive I've built from extreme sports has certainly carried over to programming and I find utilzing the same
           habits I employ when learning a new trick on a skateboard have led to a keen ability to learn new programming concepts quickly.
         </p>
-      <h2>My Education</h2>
+        <br />
+      <h2 class='font-bold'>My Education</h2>
+      <br />
         <p>
           "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos 
           dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia 
@@ -26,7 +30,9 @@ const About = () => {
           sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias 
           consequatur aut perferendis doloribus asperiores repellat."
         </p>
-      <h2>My Goals</h2>
+        <br />
+      <h2 class='font-bold'>My Goals</h2>
+      <br />
         <p>
           "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos 
           dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia 
@@ -36,6 +42,7 @@ const About = () => {
           sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias 
           consequatur aut perferendis doloribus asperiores repellat."
         </p>
+        <br />
     </div>
   )
 }
