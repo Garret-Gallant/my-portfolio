@@ -1,12 +1,18 @@
 import React from 'react'
+import { Carousel } from 'flowbite-react'
 
 const Projects = () => {
   return (
-    <div>
-      <div className='border-2'>
-        <h3>Yodish Translator</h3>
-        <p>A Project in pure Javascript reliant on the funtranslations Yodish API</p>
+    <div className="relative h-screen">
+      <Carousel>
+      <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
+        Slide 1
       </div>
+      <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
+        Slide 2
+      </div>
+        {/* <h3>Yodish Translator</h3>
+        <p>A Project in pure Javascript reliant on the funtranslations Yodish API</p>
       <div>
         <h3>Haku Mele</h3>
         <p>A project focused around cataloguing music and expanding musical preferences, using React and JSON</p>
@@ -22,7 +28,8 @@ const Projects = () => {
       <div>
         <h3>Bandmate</h3>
         <p>A project which uses Rails, React, Active Storage, and BCrypt to host user accounts, allow audio file uploads, and give users an opportunity to browse and find bandmates</p>
-      </div>
+        </div> */}
+      </Carousel>
     </div>
   )
 }

@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './src/**/*.{js,jsx,ts,tsx}',
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
     backgroundSize: {
@@ -16,9 +17,9 @@ module.exports = {
         'green': 'emerald-500',
         'darkgreen': 'emerald-700'
       },
-      // backgroundImage: {
-      //   'hero': "url('./assets/congruent_outline.png')",
-      // },
+      backgroundImage: {
+        'hero': "url('./assets/background.gif')",
+      },
       animation: {
         shine: "shine 1s",
       },
@@ -45,7 +46,7 @@ module.exports = {
       '2x-lg': '1500px'
     },
   },
-  plugins: [],
+  plugins: [require('flowbite/plugin')],
 }
 
 
