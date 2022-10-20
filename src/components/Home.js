@@ -6,6 +6,7 @@ const Home = () => {
       <h4 className='relative text-2xl font-bold'>Welcome to Garret Gallant's Portfolio</h4>
       <img src='home.jpg' className=" relative h-1/3 mt-10 border-double border-8 border-slate-500 rounded-full"/>
       <p className='font-bold text-xl mt-10'>Garret is a Full-Stack Developer from Denver, CO with a passion for innovation.</p>
+      <p className='font-bold text-xl mt-5'>If you want to learn more, feel free to visit the about page.</p>
       <img src='./techs.png' className='mt-10 w-2/3'/>
     </div>
   )
