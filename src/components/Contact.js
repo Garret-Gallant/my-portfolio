@@ -2,7 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact Me</div>
+    <div className="h-screen bg-[url('./assets/background.gif')]">
+      <div></div>
+    </div>
   )
 }
 

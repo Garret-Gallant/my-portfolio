@@ -2,7 +2,9 @@ import React from 'react'
 
 const BlogFeed = () => {
   return (
-    <div>Blog Feed</div>
+    <div className="h-screen bg-[url('./assets/background.gif')]">
+      <div></div>
+    </div>
   )
 }
 

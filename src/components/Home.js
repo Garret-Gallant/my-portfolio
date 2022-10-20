@@ -2,12 +2,9 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='text-center m-5'>
-      <h2>Welcome to my Portfolio!</h2>
-      <p>Here you'll find a little bit about me, as well as a portfolio of all of my completed projects</p>
-      <p>Thanks so much for coming by to take a look!</p>
+    <div className="text-center bg-[url('./assets/background.gif')] h-screen text-white">
+      <h4>Garret Gallant's Portfolio Landing Page</h4>
     </div>
-    
   )
 }
 

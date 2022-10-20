@@ -17,9 +17,6 @@ module.exports = {
         'green': 'emerald-500',
         'darkgreen': 'emerald-700'
       },
-      backgroundImage: {
-        'hero': "url('./assets/background.gif')",
-      },
       animation: {
         shine: "shine 1s",
       },
