@@ -4,7 +4,7 @@ import { Carousel } from "flowbite-react";
 const Projects = () => {
   return (
     <div className="relative min-h-screen min-w-screen bg-[url('./assets/background.gif')] p-20">
-      <div className="relative h-screen border-slate-500 border-2">
+      <div className="relative h-screen border-slate-500 border-2 pt-40">
         <Carousel slide={false}>
           <div className="text-center h-full top-2/3 text-white">
             <h2 className="text-4xl">Yodish Translator</h2>
