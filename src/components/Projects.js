@@ -81,7 +81,7 @@ const Projects = () => {
             <div className="flex flex-row items-center justify-center gap-5">
               <a
                 className="w-40 mt-10"
-                href="https://haku-mele.netlify.app/random-song"
+                href="https://haku-mele.netlify.app"
                 target="_blank"
                 rel="noreferrer"
               >
