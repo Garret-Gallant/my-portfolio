@@ -1,9 +1,8 @@
 import React from "react";
 
-
 const Resume = () => {
   const preview =
-    "https://docs.google.com/document/d/1d8APwQA_0c4-pCgFHTezDVkAm9nv20U7qHcsKmZxfJE/preview";
+    "https://docs.google.com/document/d/1d8APwQA_0c4-pCgFHTezDVkAm9nv20U7qHcsKmZxfJE/preview?usp=sharing";
 
   return (
     <div className="flex flex-col items-center justify-center bg-[url('./assets/background.gif')] p-20">

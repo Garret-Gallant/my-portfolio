@@ -1,6 +1,7 @@
 import React from "react";
 
 const Contact = () => {
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     alert("Your message has been sent!");

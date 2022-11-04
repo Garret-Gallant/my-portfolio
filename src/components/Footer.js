@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="flex flex-row gap-4 p-5 bg-slate-600 justify-center min-w-screen h-20">
       <div className="sticky flex flex-col justify-center">
-        <h1 class="text-white ml-10">Email: gallanttechnological@gmail.com</h1>
+        <h1 class="text-white ml-10">Email: garret@gallantsoftware.dev</h1>
         <h1 class="text-white ml-10">Phone: 303-523-0283</h1>
       </div>
       <button href="https://github.com/Garret-Gallant" target="_blank">
