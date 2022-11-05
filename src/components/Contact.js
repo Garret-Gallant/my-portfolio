@@ -1,7 +1,8 @@
 import React from "react";
 
 const Contact = () => {
-  
+  // Implement Mail.js API for properly formatted emails to new URL
+
   const handleSubmit = (e) => {
     e.preventDefault();
     alert("Your message has been sent!");
@@ -9,7 +10,7 @@ const Contact = () => {
 
   return (
     <div className="h-screen bg-[url('./assets/background.gif')]">
-      <form action="mailto:gallanttechnological@gmail.com" method="get" enctype="text/plain" className=" flex flex-col items-center p-20">
+      <form action="mailto:garret@gallantsoftware.dev" method="get" enctype="text/plain" className=" flex flex-col items-center p-20">
         <div>
         <input
           type="text"
