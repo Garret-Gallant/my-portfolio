@@ -4,8 +4,8 @@ import { Carousel } from "flowbite-react";
 const Projects = () => {
   return (
     <div className="relative min-h-screen min-w-screen bg-[url('./assets/background.gif')] p-20">
-      <div className="relative h-screen border-slate-500 border-2 pt-40">
-        <Carousel slide={false}>
+      <div className="relative h-screen border-slate-500 pt-20">
+        <Carousel slide={false} indicators={false}>
           <div className="text-center h-full top-2/3 text-white">
             <h2 className="text-4xl">Yodish Translator</h2>
             <br />
@@ -202,19 +202,15 @@ const Projects = () => {
               <img src="./bm4.png" className="w-1/4" alt="project-screenshot" />
             </div>
             <div className="flex gap-10 justify-center">
-              <p class="w-2/3 mt-10">
+              <p class="md:w-2/3 md:mt-10 sm:text-md sm:px-20 sm:mt-5">
                 Bandmate was created by me and me alone with the intention of
-                using it as a tool to find bandmates. Man was I ambitious
-                working on this project at the time. I implemented everything I
-                had learned at Flatiron School, alongside ruby active storage to
-                host audio files & websockets for a live user chat. Up until
-                this point I had never touched either technology and was given 2
-                weeks to complete a minimum viable product. I nailed it and I'm
-                so proud of how it turned out. Once I have the ability to
-                purchase a domain and afford S3 I will definitely be putting
-                this up on the AWS pipeline. Until then however I do have a
-                video demo of the site in a beta version and would love for you
-                to check it out!
+                using it as a tool to find bandmates. I implemented everything I
+                had learned at Flatiron School, alongside new tech (ruby active
+                storage to host audio files & websockets for a live user chat)
+                in 2 weeks. Once I have the ability to purchase a domain and
+                afford S3 I will definitely be putting this up on the AWS
+                pipeline. Until then however I do have a video demo of the site
+                in a beta version and would love for you to check it out!
               </p>
             </div>
             <div className="flex flex-row items-center justify-center gap-5">

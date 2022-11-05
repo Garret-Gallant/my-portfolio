@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="h-screen bg-[url('./assets/background.gif')]">
-      <div class="text-center text-white flex">
-        <div className="w-2/3 bg-gradient-to-b from-slate-500 to-transparent border-2 border-slate-800 m-10">
+    <div className="min-h-screen bg-[url('./assets/background.gif')] bg-repeat">
+      <div class="text-center text-white md:flex justify-center">
+        <div className="md:w-2/3 bg-gradient-to-b from-slate-500 to-transparent border-2 border-slate-800 md:m-10 sm:m-5 sm:p-5">
           <h1 class="font-bold">My Hobbies In Relation to Tech</h1>
           <br />
           <p>
@@ -29,7 +29,7 @@ const About = () => {
           </p>
         </div>
         <br />
-        <div className="w-2/3 bg-gradient-to-b from-slate-500 to-transparent border-2 border-slate-800 m-10">
+        <div className="md:w-2/3 bg-gradient-to-b from-slate-500 to-transparent border-2 border-slate-800 md:m-10 sm:m-5 sm:p-5">
           <h2 class="font-bold">My Education</h2>
           <br />
           <p>
@@ -52,7 +52,7 @@ const About = () => {
           </p>
         </div>
         <br />
-        <div className="w-2/3 bg-gradient-to-b from-slate-500 to-transparent border-2 border-slate-800 m-10">
+        <div className="md:w-2/3 bg-gradient-to-b from-slate-500 to-transparent border-2 border-slate-800 md:m-10 sm:m-5 sm:p-5 sm:mb-20">
           <h2 class="font-bold">My Goals</h2>
           <br />
           <p>
@@ -74,10 +74,10 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="flex gap-40 justify-center">
-        <img src="./skating.JPG" className="border-2 w-90 h-80 m-5" alt="Garret Skating"/>
-        <img src="./guitar.jpg" className="border-2 w-90 h-80 m-5" alt="Garret Playing Guitar"/>
-        <img src="./goals.jpg" className="border-2 w-90 h-80 m-5" alt="Garret Headshot"/>
+      <div className="md:flex md:gap-40 md:justify-center">
+        <img src="./skating.JPG" className="border-2 md:w-90 md:h-80 md:p-5" alt="Garret Skating"/>
+        <img src="./guitar.jpg" className="border-2 md:w-90 md:h-80 md:p-5" alt="Garret Playing Guitar"/>
+        <img src="./goals.jpg" className="border-2 md:w-90 md:h-80 md:p-5" alt="Garret Headshot"/>
       </div>
     </div>
   );
