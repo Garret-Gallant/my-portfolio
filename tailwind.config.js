@@ -1,21 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}',
-    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     backgroundSize: {
-      'auto': 'auto',
-      'cover': 'cover',
-      'contain': 'contain',
-      '100%': '100%',
-      '16': '4rem',
+      auto: "auto",
+      cover: "cover",
+      contain: "contain",
+      "100%": "100%",
+      16: "4rem",
     },
     extend: {
       colors: {
-        'green': 'emerald-500',
-        'darkgreen': 'emerald-700'
+        green: "emerald-500",
+        darkgreen: "emerald-700",
       },
       animation: {
         shine: "shine 1s",
@@ -27,25 +27,21 @@ module.exports = {
       },
     },
     screens: {
-      'tablet': '640px',
+      tablet: "640px",
       // => @media (min-width: 640px) { ... }
 
-      'laptop': '1024px',
+      laptop: "1024px",
       // => @media (min-width: 1024px) { ... }
 
-      'desktop': '1280px',
+      desktop: "1280px",
       // => @media (min-width: 1280px) { ... }
 
-      'sm': '390px',
-      'md': '1030px',
-      'lg': '1100px',
-      'x-lg': '1300px',
-      '2x-lg': '1500px'
+      sm: "390px",
+      md: "1030px",
+      lg: "1100px",
+      "x-lg": "1300px",
+      "2x-lg": "1500px",
     },
   },
-  plugins: [require('flowbite/plugin')],
-}
-
-
-
-
+  plugins: [require("flowbite/plugin")],
+};

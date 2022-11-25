@@ -1,7 +1,8 @@
 # Description:
+
 A simple frontend app to show my achievements and completed projects as a Software Engineer
 
-Technologies used: 
+Technologies used:
 
 -React 18
 -Emailjs npm package
