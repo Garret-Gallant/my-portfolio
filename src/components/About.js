@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-[url('./assets/background.gif')] bg-repeat">
+    <div className="min-h-screen bg-[url('./assets/background.gif')] bg-repeat sm:pt-5">
       <div class="text-center text-white md:flex justify-center">
-        <div className="md:w-2/3 bg-gradient-to-b from-slate-500 to-transparent border-2 border-slate-800 md:m-10 sm:m-5 sm:p-5">
+        <div className="md:w-2/3 md:m-10 sm:m-5 sm:p-5 bg-gradient-to-b from-slate-500 to-transparent border-2 border-slate-800">
           <h1 class="font-bold">My Hobbies In Relation to Tech</h1>
           <br />
           <p>

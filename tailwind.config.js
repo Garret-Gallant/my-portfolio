@@ -41,6 +41,7 @@ module.exports = {
       lg: "1100px",
       "x-lg": "1300px",
       "2x-lg": "1500px",
+      "4k": "3840px",
     },
   },
   plugins: [require("flowbite/plugin")],

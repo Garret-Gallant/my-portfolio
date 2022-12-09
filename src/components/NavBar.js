@@ -4,7 +4,7 @@ import { Button } from "flowbite-react";
 
 const NavBar = () => {
   return (
-    <div className="flex flex-wrap md:gap-4 bg-slate-700 p-5 w-100 justify-self-auto justify-center sm:gap-0">
+    <div className="flex flex-wrap md:gap-4 bg-slate-700 p-5 w-100 justify-self-auto justify-center sm:gap-0 sm:pb-10">
       <img src="nav-logo.png" alt="Site Logo" className="w-30 h-20" />
       <Link className="relative top-5 sm:w-15 sm:text-sm" to="/">
         <Button color="dark">Home</Button>
