@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-[url('./assets/background.gif')] bg-repeat sm:pt-5">
+    <div>
       <div class="text-center text-white md:flex justify-center">
         <div className="md:w-2/3 md:m-10 sm:m-5 sm:p-5 bg-gradient-to-b from-slate-500 to-transparent border-2 border-slate-800">
           <h1 class="font-bold">My Hobbies In Relation to Tech</h1>
@@ -75,9 +75,9 @@ const About = () => {
         </div>
       </div>
       <div className="md:flex md:gap-40 md:justify-center">
-        <img src="./skating.JPG" className="border-2 md:w-90 md:h-80 md:p-5" alt="Garret Skating"/>
-        <img src="./guitar.jpg" className="border-2 md:w-90 md:h-80 md:p-5" alt="Garret Playing Guitar"/>
-        <img src="./goals.jpg" className="border-2 md:w-90 md:h-80 md:p-5" alt="Garret Headshot"/>
+        <img src="./skating.jpg" className="border border-slate-600 md:h-80 md:p-2 mb-10" alt="Garret Skating"/>
+        <img src="./guitar.jpg" className="border border-slate-600 md:h-80 md:p-2 mb-10" alt="Garret Playing Guitar"/>
+        <img src="./goals.jpg" className="border border-slate-600 md:h-80 md:p-2 mb-10" alt="Garret Headshot"/>
       </div>
     </div>
   );
